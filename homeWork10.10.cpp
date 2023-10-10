@@ -1,4 +1,4 @@
-﻿// #include <iostream>
+﻿//#include <iostream>
 //int main() /*1.1- пользователь вводит число вывести это число умноженое на 2*/
 //{
 //    setlocale(LC_ALL, "");
