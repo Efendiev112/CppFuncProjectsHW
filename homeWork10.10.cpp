@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿// #include <iostream>
 //int main() /*1.1- пользователь вводит число вывести это число умноженое на 2*/
 //{
 //    setlocale(LC_ALL, "");
@@ -187,17 +187,17 @@
 //
 //}
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    setlocale(LC_ALL, "");
-    int a,b;
-    cout << "Введите число: ";
-    cin >> a>>b;
-    cout << ((a*b % 10 == 1) ? "yes" : "no");
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     setlocale(LC_ALL, "");
+//     int a,b;
+//     cout << "Введите число: ";
+//     cin >> a>>b;
+//     cout << ((a*b % 10 == 1) ? "yes" : "no");
 
-}
+// }
 
 //6.1 - простейший калькулятор
 //#include <iostream>
