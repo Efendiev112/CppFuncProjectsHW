@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 int main() {
     setlocale(LC_ALL, "");
@@ -10,7 +9,7 @@ int main() {
         cout << "Выберите: 1 (камень), 2 (ножницы), 3 (бумага): ";
         cin >> playerChoice;
         if (playerChoice < 1 || playerChoice > 3) {
-            cout << "Некорректный выбор\n";
+            cout << "Неверный выбор\n";
             cout << "Выберите: 1 (камень), 2 (ножницы), 3 (бумага): ";
             cin >> playerChoice;
         }
