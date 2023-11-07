@@ -10,7 +10,7 @@ int main()
     cout << "Введите семь целых чисел: ";
     cin >> a >> b >> c >> d >> e >> f >> g;
 
-    if (a >= b and a >= c and a >= d and a >= e and a >= d and a >= g) {
+    if (a >= b && a >= c && a >= d && a >= e && a >= d && a >= g) {
         cout << "Наибольшая цифра : " << a;
     }
 
