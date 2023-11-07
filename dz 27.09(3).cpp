@@ -14,27 +14,27 @@ int main()
         cout << "Наибольшая цифра : " << a;
     }
 
-    else if (b >= a and b >= c and b >= d and b >= e and b >= f and b >= g) {
+    else if (b >= a && b >= c && b >= d && b >= e && b >= f && b >= g) {
         cout << "Наибольшая цифра : " << b;
     }
 
-    else if (c >= a and c >= b and c >= d and c >= e and c >= f and c >= g) {
+    else if (c >= a && c >= b && c >= d && c >= e && c >= f && c >= g) {
         cout << "Наибольшая цифра : " << c;
     }
 
-    else if (d >= a and d >= b and d >= c and d >= e and d >= f and d >= g) {
+    else if (d >= a && d >= b && d >= c && d >= e && d >= f && d >= g) {
         cout << "Наибольшая цифра : " << d;
     }
 
-    else if (e >= a and e >= b and e >= c and e >= d and e >= f and e >= g) {
+    else if (e >= a && e >= b && e >= c && e >= d && e >= f && e >= g) {
         cout << "Наибольшая цифра : " << e;
     }
 
-    else if (f >= a and f >= b and f >= c and f >= e and f >= d and f >= g) {
+    else if (f >= a && f >= b && f >= c && f >= e && f >= d && f >= g) {
         cout << "Наибольшая цифра : " << f;
     }
 
-    else if (g >= a and g >= b and g >= c and g >= e and g >= f and g >= d) {
+    else if (g >= a && g >= b && g >= c && g >= e && g >= f && g >= d) {
         cout << "Наибольшая цифра : " << g;
     }
     
