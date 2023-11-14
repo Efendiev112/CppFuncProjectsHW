@@ -1,35 +1,25 @@
 ﻿
 #include <iostream>
-#include<ctime>
+
 int main()
 {
-    using namespace std;
-    srand(time(NULL));
-    int array[5];
-    int min = 0;
-    int max = 0;
-    for (int i = 0; i < 5; i++)
-    {
-        array[i] = rand();
-        cout << array[i] << " ";
+	using namespace std;
+	setlocale(LC_ALL, "");
+	srand(time(NULL));
 
-        if (i == 0)
-        {
-            max = array[0];
-            min = array[0];
-        }
-
-        if (min > array[i])
-        {
-            min = array[i];
-        }
-
-        if (max < array[i])
-        {
-            max = array[i];
-        }
-
-
-    }
-    cout << endl << min << " " << max;
+	const int size = 20;
+	int array[size];
+	int min = 20;
+	int	max = 0;
+    
+	for (int i = 0; i < 20; i++) {
+		int a = 1 + rand() % 20;
+		array[i] = a;
+		if (min > a) min = a;
+		if (max < a) max = a;
+		cout << array[i] << " ";
+	}
+	cout<<"\n"<<"Минимальное " << min<<" Максимальное " << max;
 }
+
+
