@@ -1,36 +1,36 @@
 ﻿#include <iostream>
 int main()
 {
-	//	setlocale(LC_ALL, "");
-	//	using namespace std;
-	//	srand(time(NULL));
-	//	const int size=10;
-	//    const int size2 = 5;
-	//    
-	//    int a, b, c;
-	//    int array[size];
-	//    int array2[size2];
-	//    int array3[size];
-	//    
-	//
-	//    for (int i = 0; i < 10; i++) {
-	//        array[i] = 1+ rand() % 10;
-	//        cout << array[i]<<" ";
-	//    }
-	//    cout << endl;
-	//    for (int j = 0; j < 5; j++) {
-	//        array2[j] = array[j];
-	//        cout << array2[j]<<" ";
-	//      
-	//    }
-	//    cout << endl;
-	//    for (int h = 5; h < 10; h++) {
-	//        array3[h] = array[h];
-	//        cout << array3[h] << " ";
-	//    }
-	//    
-	//    
-	//}
+//	setlocale(LC_ALL, "");
+//	using namespace std;
+//	srand(time(NULL));
+//	const int size=10;
+//    const int size2 = 5;
+//    
+//    int a, b, c;
+//    int array[size];
+//    int array2[size2];
+//    int array3[size];
+//    
+//
+//    for (int i = 0; i < 10; i++) {
+//        array[i] = 1+ rand() % 10;
+//        cout << array[i]<<" ";
+//    }
+//    cout << endl;
+//    for (int j = 0; j < 5; j++) {
+//        array2[j] = array[j];
+//        cout << array2[j]<<" ";
+//      
+//    }
+//    cout << endl;
+//    for (int h = 5; h < 10; h++) {
+//        array3[h] = array[h];
+//        cout << array3[h] << " ";
+//    }
+//    
+//    
+//}
 
 
 //
@@ -69,7 +69,7 @@ int main()
 	setlocale(LC_ALL, "");
 	srand(time(NULL));
 	int array[7];
-	int stoplus=0, summa=0;
+	int summa=0;
 	for ( int i = 0; i < 7; i++)
 	{
 		cout << "Сколько вы потратили в день "<<i+1<<" ";
