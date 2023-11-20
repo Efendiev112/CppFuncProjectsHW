@@ -23,3 +23,32 @@ int main()
 }
 
 
+
+
+
+int main()
+{   
+	setlocale(LC_ALL, "");
+	using namespace std;
+	srand(time(NULL));
+	const int size=10;
+    int a, b, c;
+    int array[size];
+    cout << "Введите диапазон: ";
+    cin >> a >> b;
+
+    for (int i = 0; i < 10; i++) {
+        array[i] = a + rand() % (b + 1 - a);
+        cout << array[i]<<" ";
+    }
+    cout << endl;
+
+    int summ = 0;
+    cout << "Введите число: ";
+    cin >> c;
+    for (int i = 0; i < 10; i++) {
+        if (array[i] < c) summ += array[i];
+    }
+
+    cout << "Сумма чисел,которые меньше введённого " << summ;
+}
