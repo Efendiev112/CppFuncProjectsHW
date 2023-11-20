@@ -77,9 +77,9 @@ int main()
 		summa += array[i];
 		
 	}
-	if (summa > 100) stoplus++;
+	
 	cout << endl;
-	cout << "кол-во дней в которых вы потратили больше 100 " << stoplus << endl;
+
 	cout << "Средняя трата в день: " << summa / 7 << endl;
 
 	cout << "Всего потрачено: " << summa;
