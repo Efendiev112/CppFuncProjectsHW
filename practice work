@@ -1,0 +1,103 @@
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    srand(time(NULL));
+    setlocale(LC_ALL, "");
+
+    /*задание 1*/
+    /*int a, b, c, d, max;  
+    cin >> a >> b >> c >> d;
+    max = a;
+    if (b > max); {
+        max = b;
+    }
+    if (c > max); {
+        max = c;
+    }
+    if (d > max); {
+        max = d;
+    }
+
+    cout << max;*/
+
+
+    /*задание 2*/
+      /*cout << "Введите Диап: ";
+      int a,b;
+      cin >> a>>b;
+
+      if (a > b) swap(a, b);
+
+      cout << "Введите количество чисел ";
+      int n;
+      cin >> n;
+
+
+      cout << "Введите числа входящие в диапазон " << endl;
+      for (int i = 0; i < n; ++i) {
+          int num;
+          cin >> num;
+
+
+          if (num < a || num > b) {
+              cout << "число не входит в диапазон " << endl;
+
+          }
+      }*/
+
+
+      /*задание 3*/
+    /*int a;
+    cout << "Введите ";
+    cin >> a;
+    cout << a << endl;
+    for (float i = 0; i < a; i += 0.25) {
+        cout << i << " ";
+    }
+
+    cout << endl;*/
+
+
+
+
+        /*задание 5
+        cout << "Введите английскую букву: ";
+        char a;
+        cin >> a;
+        if (a >= 'A' && a <= 'Z') cout << "Большая ";
+        else if (a >= 'a' && a <= 'z') cout << "Маленькая  ";
+        else {
+            cout << "не английская ";
+        }*/
+
+
+    /*задание 6,7,9*/
+    const int size = 10;
+    int array[size];
+    int min = 7;
+    int	max = 18;
+    int array2[size];
+
+    for (int i = 0; i < 10; i++) {
+        int a = min + rand() % (max + 1 - min);
+        array[i] = a;
+        cout << array[i] << " ";
+        if (array[i] % 2 == 0) {
+            array2[i] = array[i];
+            cout << array2[i] << " ";
+        }
+        cout << endl;
+
+
+    }
+    cout << endl<<"четные значения: ";
+    for (int i = 0; i < size; i++) {
+        if (array[i] % 2 == 0) {
+            cout << array[i] << " ";
+        }
+    }
+}
+
